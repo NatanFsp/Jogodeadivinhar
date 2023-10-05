@@ -70,7 +70,8 @@ def jogar():
 				print('Parabéns você acertou o número')
 				jogarnovamente()
 				break
-				
+		if rodada == numerodetentativas:
+			jogarnovamente()
 	
 def jogarnovamente():
 		 
